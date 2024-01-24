@@ -30,3 +30,6 @@ for i in monthly_expense:
         print("I spent exactly 2000 dollars in {month_map[i]}")
 
 print(f"June month just finished and your expense is 1980 dollar. Add this item to our monthly expense list.")
+month_map[6] = "June"
+monthly_expense.append(1980) 
+print(monthly_expense)
